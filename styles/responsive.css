@@ -1,0 +1,273 @@
+
+
+@media (min-width: 1400px) {
+    .container {
+        width: 1300px;
+    }
+
+}
+
+@media screen and (max-width:1400px ) {
+    .home-image{
+
+        width: 45rem;
+        height: 45rem;
+    }
+    
+}
+@media screen and (max-width:1200px ) {
+    .home-image{
+        width: 38rem;
+        height: 38rem;
+        border-width: 1.5rem ;
+
+    }
+    .home{
+        height: 65rem;
+
+        }
+        .about__cover,
+        .about__content{
+            flex-basis: 50%;
+        }
+        .service{
+            padding: 4rem 2rem;
+        }
+        .Resume-list{
+            margin-right: 0;
+        }
+    }
+@media screen and (max-width:992px ) {
+
+    .nav__title{
+        font-size: 3rem;
+    }
+    .menu__item{
+
+        margin-left: 3rem;
+
+    }
+    .home .row {
+
+        flex-direction: column-reverse;
+
+    }
+    .home-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+    }
+    .home-image{
+        width: 36rem;
+        height: 36rem;
+        margin: 0 auto;
+    }
+    .home{
+        background-image: none;
+        margin-top: 5rem;
+        height: auto;
+    }
+  
+    .about__content{
+
+        padding: 2rem 4rem;
+    }
+    .about{
+
+        flex-direction: column;
+    }
+    .about__links{
+        justify-content: center;
+    }
+    .about__cover,
+    .about__content{
+        flex-basis: auto;
+    }
+    .Resume-list::before,
+    .Resume-list__item::before,
+    .Resume-part__header::before{
+
+        content: none;
+    }
+    .Resume-list{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 2rem;
+        min-height: auto;
+        box-shadow: none;
+        background-color: transparent;
+    }
+    .Resume-list__icon{
+        display: none;
+    }
+    .Resume-list__text{
+        margin: 0;
+        font-size: 1.6rem;
+        font-family: "Poppins" ;
+    }
+    .Resume-list__item{
+        margin-bottom: 0;
+       
+        padding: 1rem 2rem;
+        border-radius: 5rem;
+    }
+    .Resume-list__item--active{
+        background-color: var( --primary-color );
+    }
+    .Resume-parts{
+        border-left: none;
+        padding-left: 0;
+    }
+
+
+    
+}
+@media screen and (max-width:768px ) {
+    .menu{
+        background-color: var(--section-bg-color);
+        position: absolute;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        top: 100%;
+        width: 100%;
+        right: 0;
+        left: 0;
+        height: 0; 
+        overflow: hidden; 
+    }
+    .menu__item{
+        margin-left: 0;
+        margin-bottom: 2rem;
+
+    }
+    .menu__item:first-child{
+        margin-top:2rem;
+    }
+    .menu--open{
+        height: 33rem;
+    }
+    .nav__toggle-icon{
+        display: flex;
+    }
+    .cover{
+
+        position: fixed;
+        z-index: -1;
+        opacity: 0;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 10%);
+        transition: all 150ms ease-in;
+    
+    
+    
+    }
+    .cover--show{
+        z-index: 99;
+        opacity: 1;
+    }
+    .home-image{
+        width: 34rem;
+        height: 34rem;
+    }
+   
+    .service__title{
+        font-size: 2rem;
+    }
+    .service__svg{
+        width: 6rem;
+    }
+    .contactus-map{
+        display: none;
+    }
+    .contact{
+
+        margin-right: auto;
+
+    }
+
+    
+}
+@media screen and (max-width:576px ) {
+
+    *{
+
+        cursor: default !important;
+
+
+    }
+
+    .content__header{
+
+        font-size: 4rem;
+    }
+    .content__name{
+        font-size: 2rem;
+    }
+    .home-image{
+        border-width: 1.4rem;
+         width: 32rem;
+         height: 32rem;
+
+    }
+    .about__link{
+        width: 100%;
+    }
+    .footer-wrapper{
+        flex-wrap: wrap;
+    }
+    .about__content{
+        padding: 2rem;
+    }
+ 
+}
+@media(max-width: 410px){
+
+    .content__header{
+        font-size: 3.5rem ;
+
+    }
+    .home-image{
+        border-width: 1.4rem;
+         width: 29rem;
+         height: 29rem;
+
+    }
+    .content__btns{
+
+        width: 100%;
+
+
+    }
+    .content__btn{
+
+        width: 100%;
+    }
+    .contact{
+        padding: 4.5rem 2rem;
+    }
+
+
+}
+@media(max-width: 350px){
+
+    /* .home-image{
+        width: 100%;
+    
+    } */
+
+  
+    .content__header{
+
+        font-size: 3rem ;
+    }
+
+}
