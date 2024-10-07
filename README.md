@@ -2,7 +2,7 @@
 
 A simple static responsive website, contains dark mode and swiper Shows my HTML & Css Skill
 
-## [Live Demo](https://camping-web-company.netlify.app/)
+## [Live Demo](https://private-site-demo.netlify.app/)
 
 ## Features:
 
