@@ -2,7 +2,7 @@
 
 A simple static responsive website, contains dark mode and swiper Shows my HTML & Css Skill
 
-## [Live Demo](https://private-site-demo.netlify.app/)
+## [Live Demo](https://private-site.alitadayoni.com)
 
 ## Features:
 
